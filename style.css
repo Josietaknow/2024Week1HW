@@ -1,0 +1,143 @@
+body {
+    font-family: "Castoro", serif;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+    /* 加上上面那行是可以畫上框線，知道每一個區塊的間距等 */
+}
+
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+
+/* 
+EFEFEF
+949494
+AE0000
+000000 
+*/
+
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    font-size: 128px;
+    /* 週六助教建議 */
+    letter-spacing: 0.12em;
+    /* 字距在設計稿是120%，要用em，所以是0.12em */
+}
+
+.header img {
+    display:block;
+    margin: 0 auto;
+}
+
+.pt160 {
+    padding-top: 160px;
+}
+
+
+
+/* 週六助教建議 */
+.w-50 {
+    width: 50%;
+}
+
+/* 週六助教建議 */
+.ml-auto {
+    margin-left: auto;
+}
+
+
+.resume {
+    background: #EFEFEF;
+}
+
+.resume p {
+    font-size: 32px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.main {
+    margin-top: 80px;
+    width: 648px;
+}
+
+.subTitle {
+    font-size: 40px;
+    line-height: 1.5;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+
+.pb-2 li {
+    padding-bottom: 8px;
+}
+
+.pb-3 li {
+    padding-bottom: 12px;
+}
+
+.pb-4 li {
+    padding-bottom: 16px;
+}
+
+.years {
+    font-style: italic;
+    display: block;
+    font-size: 20px;
+    color: #949494;
+}
+
+.footer {
+    margin-top: 160px;
+    background-color: #000000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer li a:hover {
+    background-color: #AE0000;
+}
